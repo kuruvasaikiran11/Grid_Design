@@ -136,6 +136,11 @@ header{
   cursor: pointer
 }
 
+.filter-category:hover{
+  color: #fff;
+  background-color: #0084ff;
+}
+
 #all-categories-filter{
   color: #fff;
   background-color: #0084ff;

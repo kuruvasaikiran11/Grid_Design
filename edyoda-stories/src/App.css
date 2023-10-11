@@ -14,6 +14,12 @@ header{
   box-shadow: 0 1px 1px #ccc;
 }
 
+.header-bar{
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
 .header-item{
   display: inline-block;
 }
@@ -21,7 +27,7 @@ header{
 .logo{
   width: 139px;
   height: 100%;
-  font-size: 32px;
+  font-size: 34px;
   color: #0084ff;
   background-image: linear-gradient(269deg,#0048ff,#0096ff),linear-gradient(#000,#000);
   -webkit-background-clip: text;
@@ -31,9 +37,6 @@ header{
   font-family: 'Raleway', sans-serif;
   cursor: pointer;
 }
-.logo-item{
-  
-}
 
 .logo-caption{
   margin: 0;
@@ -41,13 +44,18 @@ header{
   font-family: 'Raleway', sans-serif;
   font-style: italic;
   cursor: pointer;
+  font-size: 20px;
 }
 
 .dropdown{
   color: #000;
-  width: 150px;
+  width: 100%;
   text-align: center;
   cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 30px;
 }
 
 .dropdown-icon{
@@ -58,7 +66,7 @@ header{
 #header-text{
   margin-left: 500px;
   opacity: .6;
-  font-size: 15px;
+  font-size: 17px;
   font-weight: 500;
   color: rgba(0,0,0,.6);
 }
@@ -73,16 +81,17 @@ header{
 
 .btn{
   min-width: 136px;
-  height: 42px;
+  /* height: 42px; */
   border-radius: 35px;
   font-family: Raleway,sans-serif;
-  font-size: .9em;
+  font-size: 14px;
   font-weight: 600;
   box-sizing: border-box;
   border: none;
   cursor: pointer;
   color: #fff;
   background: linear-gradient(269deg,#0048ff,#0096ff);
+  padding: 18px 24px;
 }
 
 .main-container{
@@ -97,6 +106,11 @@ header{
 
 #filter-icon{
   padding-top: 16px;
+}
+
+#filter{
+  color: royalblue;
+  font-size: 18px;
 }
 
 #filter-text{
@@ -186,8 +200,9 @@ header{
 
 .date{
   color: rgba(0,0,0,0.7);
-  font-size: 14px;
+  font-size: 18px;
   font-weight: 300;
+  font-family: Roboto;
 }
 
 .blog-info{
